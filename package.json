@@ -4,14 +4,10 @@
   "description": "A Dash component for recording audio",
   "main": "build/index.js",
   "scripts": {
-    "start": "webpack-serve ./webpack.serve.config.js --open",
     "validate-init": "python _validate_init.py",
     "prepublish": "npm run validate-init",
     "build:js": "webpack --minimize && webpack --mode development",
     "build:py": "dash-generate-components ./src/lib/components dash_audio_components",
-    "build:py-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:py)",
-    "build:all": "npm run build:js && npm run build:js-dev && npm run build:py",
-    "build:all-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:all)"
   },
   "author": "Daniel Cahall",
   "contributors": [

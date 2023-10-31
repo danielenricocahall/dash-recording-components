@@ -8,12 +8,12 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<=3.11"
-dash = "^1.21.0"
+dash = "^2.14.1"
 
-[tool.poetry.dev-dependencies]
-pytest = "^7.2.1"
-pyyaml = "^5.4.1"
 
+[tool.poetry.group.dev.dependencies]
+soundfile = "^0.12.1"
+numpy = "1.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

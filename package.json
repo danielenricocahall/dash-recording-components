@@ -1,6 +1,6 @@
 {
   "name": "dash_recording_components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Dash component for recording audio",
   "main": "build/index.js",
   "scripts": {

@@ -12,7 +12,7 @@ pip install dash-audio-components
 # Development and Contributing
 - Create a Poetry environment and install all required dependencies: `poetry install --dev`
 - Install [webpack](https://webpack.js.org/)
-- Install `npm` (`brew install npm`)
+- Install `npm` 
 - `npm install` to install the dependencies
 - Build the js files: `npm run build:js`
 - Build the Dash components (Python modules): `npm run build:py`

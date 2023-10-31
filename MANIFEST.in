@@ -1,0 +1,5 @@
+include dash_audio_components/dash_audio_components.min.js
+include dash_audio_components/dash_audio_components.dev.js
+include dash_audio_components/metadata.json
+include dash_audio_components/package.json
+include README.md

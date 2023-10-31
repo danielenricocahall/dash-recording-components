@@ -9,7 +9,7 @@ import sys
 import importlib
 
 
-components_package = 'dash_audio_components'
+components_package = 'dash_recording_components'
 
 components_lib = importlib.import_module(components_package)
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dash-audio-components"
+name = "dash-recording-components"
 version = "1.0.0"
 description = "A Dash component for recording audio from the browser"
 readme = "README.md"

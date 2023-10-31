@@ -1,7 +1,7 @@
 import dash
 from dash import html
 from dash.dependencies import Input, Output, State
-from dash_audio_components import AudioRecorder
+from dash_recording_components import AudioRecorder
 import soundfile as sf
 import numpy as np
 import io

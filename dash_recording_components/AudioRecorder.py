@@ -22,7 +22,7 @@ Keyword arguments:
     Sampling rate in Hz."""
     _children_props = []
     _base_nodes = ['children']
-    _namespace = 'dash_audio_components'
+    _namespace = 'dash_recording_components'
     _type = 'AudioRecorder'
     @_explicitize_args
     def __init__(self, audio=Component.UNDEFINED, id=Component.UNDEFINED, recording=Component.UNDEFINED, sampleRate=Component.UNDEFINED, **kwargs):

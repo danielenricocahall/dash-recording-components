@@ -5,7 +5,7 @@ A Dash component for recording audio. The component is built using [microphone-s
 # Installation
 Simply install the package using pip:
 ```shell
-pip install dash-audio-components
+pip install dash-recording-components
 ```
 
 

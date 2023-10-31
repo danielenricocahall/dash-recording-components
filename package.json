@@ -1,5 +1,5 @@
 {
-  "name": "dash_audio_components",
+  "name": "dash_recording_components",
   "version": "1.0.0",
   "description": "A Dash component for recording audio",
   "main": "build/index.js",
@@ -7,7 +7,7 @@
     "validate-init": "python _validate_init.py",
     "prepublish": "npm run validate-init",
     "build:js": "webpack --minimize && webpack --mode development",
-    "build:py": "dash-generate-components ./src/lib/components dash_audio_components",
+    "build:py": "dash-generate-components ./src/lib/components dash_recording_components"
   },
   "author": "Daniel Cahall",
   "contributors": [

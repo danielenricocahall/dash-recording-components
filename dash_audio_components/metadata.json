@@ -1,0 +1,71 @@
+{
+  "src/lib/components/AudioRecorder.react.js": {
+    "description": "",
+    "displayName": "AudioRecorder",
+    "methods": [
+      {
+        "name": "startRecording",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "stopRecording",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "audio": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "When this property is set, a message is sent with its content."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "recording": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Flag to indicate if we're currently recording"
+      },
+      "sampleRate": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Sampling rate in Hz",
+        "defaultValue": {
+          "value": "16000",
+          "computed": false
+        }
+      }
+    }
+  }
+}

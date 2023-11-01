@@ -14,7 +14,7 @@ from dash_recording_components import AudioRecorder
 ```
 
 # Use-Cases
-Currently, there is only one Dash component being built: `AudioRecorder`, in the `dash_recording_components` package, which is built from the React component in `src/lib/components/AudioRecorder.react.js`. An example application using the component can be seen below (note this also uses the excellent library [soundfile](https://pypi.org/project/SoundFile/) to save the audio to a wav file for use in an `AudioPlayer`.
+Currently, there is only one Dash component being built: `AudioRecorder`, in the `dash_recording_components` package, which is built from the React component in `src/lib/components/AudioRecorder.react.js`. An example application using the component can be seen below (note this also uses the excellent library [soundfile](https://pypi.org/project/SoundFile/) and numpy to save the audio to a wav file for use in an `AudioPlayer`).
 
 ```python
 import dash

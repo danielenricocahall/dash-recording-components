@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dash-recording-components"
-version = "1.0.2"
+version = "1.0.3"
 description = "A Dash component for recording audio from the browser"
 readme = "README.md"
 authors = ["Daniel Cahall <danielenricocahall@gmail.com>"]

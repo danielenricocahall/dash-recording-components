@@ -1,8 +1,7 @@
 {
   "name": "dash_recording_components",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Dash component for recording audio",
-  "main": "build/index.js",
   "scripts": {
     "validate-init": "python _validate_init.py",
     "prepublish": "npm run validate-init",

@@ -18,7 +18,17 @@ jobs:
       with:
         node-version: 20
 
-    - name: Install dependencies
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+
+    - name: Install Python dependencies with Poetry
+      run: |
+        python3 -m pip install poetry
+        poetry install
+
+    - name: Install Node dependencies
       run: |
         npm install --only=dev # Install development dependencies
 
